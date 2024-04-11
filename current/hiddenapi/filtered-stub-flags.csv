@@ -664,6 +664,10 @@ Landroid/media/internal/guava_common/collect/ComparatorOrdering;->compare(Ljava/
 Landroid/media/internal/guava_common/collect/ComparatorOrdering;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ComparatorOrdering;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ComparatorOrdering;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/CompoundOrdering;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/CompoundOrdering;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/CompoundOrdering;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/CompoundOrdering;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Cut$AboveAll;->compareTo(Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Cut$AboveAll;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Cut$AboveAll;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
@@ -802,11 +806,11 @@ Landroid/media/internal/guava_common/collect/ImmutableSortedSet;->subSet(Ljava/l
 Landroid/media/internal/guava_common/collect/ImmutableSortedSet;->subSet(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableSet;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableSortedSet;->tailSet(Ljava/lang/Object;)Ljava/util/SortedSet;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableSortedSet;->tailSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/Iterators$9;->hasNext()Z,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/Iterators$9;->next()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Iterators$PeekingImpl;->hasNext()Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Iterators$PeekingImpl;->next()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Iterators$PeekingImpl;->remove()V,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/Iterators$SingletonIterator;->hasNext()Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/Iterators$SingletonIterator;->next()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/LinkedHashMultimap$1;->hasNext()Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/LinkedHashMultimap$1;->next()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/LinkedHashMultimap$1;->remove()V,core-platform-api,public-api,system-api,test-api
@@ -998,7 +1002,6 @@ Landroid/media/internal/guava_common/collect/SingletonImmutableSet;->hashCode()I
 Landroid/media/internal/guava_common/collect/SingletonImmutableSet;->iterator()Ljava/util/Iterator;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/SingletonImmutableSet;->size()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/SingletonImmutableSet;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/Synchronized$SynchronizedBiMap;->values()Ljava/util/Collection;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Synchronized$SynchronizedCollection;->add(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Synchronized$SynchronizedCollection;->addAll(Ljava/util/Collection;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/Synchronized$SynchronizedCollection;->clear()V,core-platform-api,public-api,system-api,test-api
