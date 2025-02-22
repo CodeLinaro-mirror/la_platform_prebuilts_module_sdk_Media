@@ -42,12 +42,7 @@ prebuilt_bootclasspath_fragment {
 
 java_import {
     name: "updatable-media",
-    visibility: [
-        "//frameworks/av/apex:__subpackages__",
-        "//frameworks/base",
-        "//frameworks/base/apex/media/service",
-        "//packages/modules/Media/apex/framework",
-    ],
+    visibility: ["//visibility:public"],
     apex_available: [
         "com.android.media",
         "test_com.android.media",
