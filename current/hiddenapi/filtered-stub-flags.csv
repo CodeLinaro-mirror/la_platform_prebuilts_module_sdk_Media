@@ -708,6 +708,7 @@ Landroid/media/internal/guava_common/collect/ImmutableCollection;->iterator()Lja
 Landroid/media/internal/guava_common/collect/ImmutableCollection;->remove(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableCollection;->removeAll(Ljava/util/Collection;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableCollection;->retainAll(Ljava/util/Collection;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/collect/ImmutableCollection;->spliterator()Ljava/util/Spliterator;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableCollection;->toArray()[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableCollection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/ImmutableEntry;->getKey()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
@@ -843,16 +844,12 @@ Landroid/media/internal/guava_common/collect/MapMakerInternalMap$KeySet;->isEmpt
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$KeySet;->iterator()Ljava/util/Iterator;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$KeySet;->remove(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$KeySet;->size()I,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/MapMakerInternalMap$SafeToArraySet;->toArray()[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/MapMakerInternalMap$SafeToArraySet;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$ValueIterator;->next()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->clear()V,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->contains(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->isEmpty()Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->iterator()Ljava/util/Iterator;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->size()I,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->toArray()[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/guava_common/collect/MapMakerInternalMap$Values;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$WriteThroughEntry;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$WriteThroughEntry;->getKey()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/collect/MapMakerInternalMap$WriteThroughEntry;->getValue()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
