@@ -134,6 +134,12 @@ license {
     license_text: ["licenses/frameworks/av/NOTICE"],
 }
 
+license {
+    name: "media-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
+}
+
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.media-systemserverclasspath-fragment",
     visibility: ["//visibility:public"],
