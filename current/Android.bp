@@ -159,6 +159,12 @@ license {
     license_text: ["licenses/frameworks/av/NOTICE"],
 }
 
+license {
+    name: "media-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
+}
+
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.media-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "media_module" is true.
