@@ -101,10 +101,10 @@ Landroid/media/MediaParceledListSlice$1;->createFromParcel(Landroid/os/Parcel;Lj
 Landroid/media/MediaParceledListSlice$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/media/MediaParceledListSlice;->describeContents()I,public-api,system-api,test-api
 Landroid/media/MediaParceledListSlice;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Landroid/media/MediaParser$$ExternalSyntheticLambda16;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaParser$$ExternalSyntheticLambda17;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/media/MediaParser$$ExternalSyntheticLambda5;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/media/MediaParser$$ExternalSyntheticLambda6;->apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/media/MediaParser$$ExternalSyntheticLambda18;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/media/MediaParser$$ExternalSyntheticLambda6;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/media/MediaParser$$ExternalSyntheticLambda7;->apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaParser$DataReaderAdapter;->getLength()J,public-api,system-api,test-api
 Landroid/media/MediaParser$DataReaderAdapter;->getPosition()J,public-api,system-api,test-api
 Landroid/media/MediaParser$DataReaderAdapter;->read([BII)I,public-api,system-api,test-api
@@ -183,9 +183,9 @@ Landroid/media/MediaParser;->seek(Landroid/media/MediaParser$SeekPoint;)V,public
 Landroid/media/MediaParser;->setLogSessionId(Landroid/media/metrics/LogSessionId;)V,public-api,system-api,test-api
 Landroid/media/MediaParser;->setParameter(Ljava/lang/String;Ljava/lang/Object;)Landroid/media/MediaParser;,public-api,system-api,test-api
 Landroid/media/MediaParser;->supportsParameter(Ljava/lang/String;)Z,public-api,system-api,test-api
-Landroid/media/MediaSession2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaSession2$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaSession2$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/media/MediaSession2$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaSession2$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaSession2$1;->onReceiveResult(ILandroid/os/Bundle;)V,public-api,system-api,test-api
 Landroid/media/MediaSession2$Builder;-><init>(Landroid/content/Context;)V,public-api,system-api,test-api
