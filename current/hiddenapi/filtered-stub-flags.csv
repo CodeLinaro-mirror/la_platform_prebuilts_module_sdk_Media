@@ -415,9 +415,6 @@ Landroid/media/internal/androidx/media3/extractor/metadata/emsg/EventMessage;->t
 Landroid/media/internal/androidx/media3/extractor/metadata/flac/PictureFrame;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/flac/PictureFrame;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/flac/PictureFrame;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/flac/VorbisComment;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/flac/VorbisComment;->hashCode()I,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/flac/VorbisComment;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/ApicFrame;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/ApicFrame;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/ApicFrame;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
@@ -461,6 +458,9 @@ Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SlowMotionData;->
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SmtaMetadataEntry;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SmtaMetadataEntry;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SmtaMetadataEntry;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/vorbis/VorbisComment;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/vorbis/VorbisComment;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/vorbis/VorbisComment;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/mkv/MatroskaExtractor$MatroskaSeekMap$CuePointData;->compareTo(Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/mkv/MatroskaExtractor$MatroskaSeekMap$CuePointData;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/mkv/MatroskaExtractor$MatroskaSeekMap$CuePointData;->hashCode()I,core-platform-api,public-api,system-api,test-api
