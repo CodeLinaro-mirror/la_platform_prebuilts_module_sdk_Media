@@ -125,7 +125,9 @@ Landroid/media/MediaParser$ParsableByteArrayAdapter;->read([BII)I,public-api,sys
 Landroid/media/MediaParser$SeekMap;->UNKNOWN_DURATION:I,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekMap;->getDurationMicros()J,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekMap;->getSeekPoints(J)Landroid/util/Pair;,public-api,system-api,test-api
+Landroid/media/MediaParser$SeekMap;->getSeekPoints(JI)Landroid/util/Pair;,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekMap;->isSeekable()Z,public-api,system-api,test-api
+Landroid/media/MediaParser$SeekMap;->trackHasSeekPoints(I)Z,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekPoint;->START:Landroid/media/MediaParser$SeekPoint;,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekPoint;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/MediaParser$SeekPoint;->hashCode()I,core-platform-api,public-api,system-api,test-api
@@ -378,6 +380,7 @@ Landroid/media/internal/androidx/media3/common/Format;->hashCode()I,core-platfor
 Landroid/media/internal/androidx/media3/common/Format;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/common/Label;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/common/Label;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/common/Label;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/common/Metadata;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/common/Metadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/common/Metadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
@@ -406,6 +409,9 @@ Landroid/media/internal/androidx/media3/extractor/SeekPoint;->hashCode()I,core-p
 Landroid/media/internal/androidx/media3/extractor/SeekPoint;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/TrackOutput$CryptoData;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/TrackOutput$CryptoData;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/ChapterImpl;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/ChapterImpl;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/androidx/media3/extractor/metadata/ChapterImpl;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/ThumbnailMetadata;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/ThumbnailMetadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/ThumbnailMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
@@ -445,9 +451,6 @@ Landroid/media/internal/androidx/media3/extractor/metadata/id3/TextInformationFr
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/UrlLinkFrame;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/UrlLinkFrame;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/id3/UrlLinkFrame;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/mp4/MotionPhotoMetadata;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/mp4/MotionPhotoMetadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
-Landroid/media/internal/androidx/media3/extractor/metadata/mp4/MotionPhotoMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SlowMotionData$Segment$$ExternalSyntheticLambda0;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SlowMotionData$Segment;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/androidx/media3/extractor/metadata/mp4/SlowMotionData$Segment;->hashCode()I,core-platform-api,public-api,system-api,test-api
@@ -947,6 +950,9 @@ Landroid/media/internal/guava_common/io/BaseEncoding$StandardBaseEncoding;->toSt
 Landroid/media/internal/guava_common/primitives/ImmutableIntArray;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/primitives/ImmutableIntArray;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/primitives/ImmutableIntArray;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/primitives/ImmutableLongArray;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/primitives/ImmutableLongArray;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/media/internal/guava_common/primitives/ImmutableLongArray;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/primitives/UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/primitives/UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/media/internal/guava_common/primitives/UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator$1;->run()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
